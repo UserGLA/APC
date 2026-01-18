@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stylemin.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>APC Тюнинг ателье</title>
+    <meta
+      name="description"
+      content="Ищете лучшие коврики по приемлимым ценам? лучшие коврики из Eva материала"
+    />
+    <meta
+      name="keywords"
+      content="коврики eva, коврики eva купить, eva коврики с бортами, коврики салона eva, eva коврики 3d, автомобильные коврики eva"
+    />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header class="header">
+  <div class="wrapper">
+    <div class="header-wrap">
+      <div class="header-logo">
+        <a class="header-name">APC</a> <br />
+        <a class="header-tel">+7 995 161 50-90</a>
+      </div>
+      <div class="header-menu" id="menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line line-disable"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <nav class="header-nav" id="navigation">
+      <ul class="header-list">
+        <li class="header-item">
+          <a href="#config" class="header-link"> Конфигуратор</a>
+        </li>
+        <li class="header-item">
+          <a href="#gallery" class="header-link">Галерея</a>
+        </li>
+        <li class="header-item">
+          <a href="#feedback" class="header-link">Отзывы</a>
+        </li>
+        <li class="header-item">
+          <a href="#other" class="header-link">Другие товары</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+ <section class="main">
+  <div class="main-video">
+    <video
+      controls
+      autoplay
+      muted
+      class="video"
+      src="../assets/images/video.mp4"
+      poster="../assets/images/poster.png"
+    ></video>
+  </div>
+  <div class="main-title--wrap">
+    <h1 class="main-title">
+      Мы - тюнинг ателье <br /><span>Auto Performance Centre</span>, <br />где
+      воплощаются самые смелые идеи и фантазии автолюбителей! Здесь у нас нет
+      пределов в креативности и индивидуальности - каждая машина становится
+      произведением искусства на колесах!
+    </h1>
+  </div>
+  <!-- <a class="btn main-btn">записаться</a> -->
+
+  <section class="order">
+    <h3 id="form-head" class="order-head">
+      Оставьте заявку и мы с Вами свяжемся!
+    </h3>
+    <div class="order-wrap">
+      <form
+        id="form-order"
+        class="order-form"
+        onsubmit="sendMessageOther(event)"
+      >
+        <label class="label order-label">
+          Ваше имя: <br />
+          <input
+            class="input order-input order-input__name"
+            name="name"
+            type="text"
+            required
+          />
+        </label>
+        <label class="label order-label">
+          Ваш телефон: <br />
+          <input class="input order-input" name="tel" type="tel" required />
+        </label>
+        <!-- <label class="label configurator-label"
+          >Комментарий: <br />
+          <textarea
+            id="textarea-order"
+            name="coment"
+            class="textarea--order"
+            required
+          >
+          </textarea>
+        </label> -->
+        <div class="btn-wrap">
+          <button id="btn-order" type="submit" class="btn order-btn">
+            Оставить заявку
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="main-info">
+    <h3 class="head main-head">почему мы</h3>
+    <div class="main-info-wrap">
+      <div class="main-info-logo">
+        <img src="../assets/images/logo.jpg" />
+      </div>
+      <div class="main-info-text">
+        <p>
+          Мы работаем только с высококачественными компонентами и материалами,
+          чтобы гарантировать долговечность и надежность ваших улучшений.
+          Безопасность и качество - наши основные принципы! Опыт работы
+          составляет уже более 5 лет!
+          <br />
+          <span>Ваша машина – ваша личность.</span> И мы готовы помочь вам
+          выразить свою индивидуальность на дороге! Приходите в нашу
+          тюнинг-студию и позвольте вашему автомобилю заговорить о вас с первого
+          взгляда.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="jobs">
+  <h3 class="head jobs-head">наши услуги</h3>
+  <ul class="jobs-list">
+    <li class="jobs-item cleaning">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">химчистка</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Устали от пятен, пыли и неприятных запахов в салоне? Пора на
+          химчистку! <br />Это не просто уборка, а комплексное обновление вашего
+          пространства: <br />Глубокая чистка сидений и ковров<br />
+          Удаление пятен и запахов<br />Чистка потолка и всех панелей Верните
+          своему авто ощущение новизны и садитесь за руль с удовольствием!
+        </p>
+        <div class="jobs-gallery">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/clean1.JPG" />
+            <img class="jobs-img" src="../assets/images/clean2.JPG" />
+            <img class="jobs-img" src="../assets/images/clean3.JPG" />
+            <img class="jobs-img" src="../assets/images/clean4.JPG" />
+            <img class="jobs-img" src="../assets/images/clean5.JPG" />
+            <img class="jobs-img" src="../assets/images/clean6.JPG" />
+            <img class="jobs-img" src="../assets/images/clean7.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item polishing">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">полировка</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Не просто блеск, а несравненная защита! Ваш автомобиль заслуживает
+          большего, чем просто мойка. Подарите ему сияние выставочного образца и
+          долговременную защиту от всего, что портит внешний вид! Полировка +
+          Защитное покрытие = Идеальный дуэт: <br />1. Полировка: Мы бережно
+          удаляем царапины, возвращая кузову идеальную гладкость и глянец,
+          который вы никогда не получите от обычной мойки. <br />2. Защитное
+          покрытие (Керамика, Воск, Жидкое стекло): Мы не просто полируем — мы
+          защищаем результат! Нанесение современного покрытия создает на лаке
+          прочный барьер, который: · Отталкивает грязь, воду и дорожные
+          реагенты. · Защищает от вредного УФ-излучения. · Сохраняет безупречный
+          блеск на долгие месяцы. · Облегчает будущие мойки. Превратите свой
+          автомобиль в несмываемую игру света!<br />
+          Акция месяца: При заказе комплексной полировки с керамическим
+          покрытием — антидождь и бронирование зоны под ручками в подарок!
+          Запишитесь на бесплатную консультацию и получите расчет стоимости
+          именно для вашего авто! Ваш автомобиль сияет. Ваше время — ценится
+        </p>
+        <div class="jobs-gallery jobs-gallery--reverse">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/polishing2.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing3.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing4.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing5.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing6.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing11.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing14.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing15.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing16.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item aquaprint">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">аква-принт</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Аквапринт: Твой интерьер — твоя уникальность! Устали от скучного
+          черного пластика? Хочется премиум-глянца карбона, благородства дерева
+          или агрессии камуфляжа? Теперь это возможно без огромных затрат!
+          Аквапринт (Гидропечать) — это революционная технология, которая
+          позволяет нанести любой рисунок на любую деталь вашего автомобиля,
+          мотоцикла или даже гаджета.
+          <br />
+          Почему это круто?
+          <br />
+          · Эксклюзивность: Выберите любой узор из сотен вариантов: карбон,
+          дерево, мрамор, камуфляж, геометрия и даже собственный дизайн!
+          <br />· Прочность и долговечность: После нанесения рисунок покрывается
+          стойким лаком, который защищает от царапин, влаги и выцветания.
+          <br />· Безупречный вид: Рисунок идеально ложится на любую сложную
+          поверхность — руль, панели, рукоятки КПП, создавая эффект заводского
+          качества. Преобразите салон! Роскошь, стиль и индивидуальность теперь
+          доступны каждому. Узнай, сколько стоит твоя уникальность! Заходи на
+          сайт или звони для консультации!
+        </p>
+        <div class="jobs-gallery">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/print1.JPG" />
+            <img class="jobs-img" src="../assets/images/print2.JPG" />
+            <img class="jobs-img" src="../assets/images/print3.JPG" />
+            <img class="jobs-img" src="../assets/images/print4.JPG" />
+            <img class="jobs-img" src="../assets/images/print5.JPG" />
+            <img class="jobs-img" src="../assets/images/print6.JPG" />
+            <img class="jobs-img" src="../assets/images/print7.JPG" />
+            <img class="jobs-img" src="../assets/images/print8.JPG" />
+            <img class="jobs-img" src="../assets/images/print9.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item antichrome">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">антихром</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Антихром (дехромирование) — это процесс затемнения или полного
+          перекрытия хромированных элементов автомобиля. Цель — заменить
+          блестящую поверхность на более сдержанную: чёрную, матовую, карбоновую
+          или цветную, в зависимости от стиля.<br />
+          Чаще всего антихром затрагивает молдинги, решётку радиатора, окантовку
+          окон, эмблемы и другие элементы экстерьера.
+        </p>
+        <div class="jobs-gallery jobs-gallery--reverse">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/antichrom1.JPG" />
+            <img class="jobs-img" src="../assets/images/antichrom2.JPG" />
+            <img class="jobs-img" src="../assets/images/antichrom3.JPG" />
+            <img class="jobs-img" src="../assets/images/antichrom4.JPG" />
+            <img class="jobs-img" src="../assets/images/antichrom5.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item antigravity">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">антигравийная защита</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Ваш кузов под надежной защитой!
+          <br />
+          Каждая поездка — это испытание для лакокрасочного покрытия вашего
+          автомобиля. Песок, гравий, солевые реагенты и дорожная грязь оставляют
+          на кузове сколы и царапины, которые не только портят внешний вид, но и
+          запускают коррозию.
+          <br />
+          Сохраните идеальный вид и ценность вашего автомобиля с помощью
+          антигравийной защиты!
+          <br />
+          Что мы предлагаем?
+          <br />
+          · Оклейка прозрачной антигравийной пленкой (полеуретановой) на самые
+          уязвимые зоны: передний бампер, капот, крылья, зеркала заднего вида,
+          пороги.
+          <br />· Оклейка прозрачной антигравийной пленкой (полеуретановой)
+          кузова автомобиля целиком. <br />•Оклейка цветной антигравийной
+          пленкой (полеуретановой) для защиты ЛКП вашего авто, а также для
+          придания индивидуального стиля.
+          <br />
+          Почему это необходимо?<br />
+
+          · Сохранение заводского ЛКП: Пленка принимает на себя все повреждения,
+          а после замены кузов остается идеально целым.
+          <br />· Невидимая защита: Современные материалы практически незаметны
+          на кузове и не искажают цвет. <br />· Защита от коррозии:
+          Предотвращает появление ржавчины в местах сколов. <br />· Поддержание
+          высокой стоимости автомобиля: Безупречный кузов — главный аргумент при
+          продаже. Не ждите, пока появится первый скол! Позаботьтесь о защите
+          заранее — это выгоднее, чем последующая дорогостоящая покраска.
+        </p>
+        <div class="jobs-gallery">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/antygravity1.jpeg" />
+            <img class="jobs-img" src="../assets/images/antygravity2.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity3.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity4.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity5.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity6.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity7.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity8.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity9.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity10.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity11.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity12.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity13.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity14.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity15.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity16.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity17.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity18.JPG" />
+            <img class="jobs-img" src="../assets/images/antygravity19.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item audio">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">автозвук</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui,
+          repudiandae. Maiores reprehenderit numquam quaerat eum praesentium
+        </p>
+        <div class="jobs-gallery jobs-gallery--reverse">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/polishing2.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing3.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing4.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing5.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing6.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing11.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing14.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing15.JPG" />
+            <img class="jobs-img" src="../assets/images/polishing16.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item antinoise">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">шумоизоляция</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Тишина, которую вы заслуживаете. Превратите свою машину в оазис
+          спокойствия! Устали от гула дороги, рева двигателя и надоедливого
+          свиста ветра? Эти раздражители утомляют и мешают наслаждаться
+          поездкой. Верните себе ощущение комфорта и роскоши с помощью
+          комплексной шумоизоляции салона!
+          <br />
+          Что вы получите?
+
+          <br />· Тишину и покой: Глушение до 95% внешних шумов — от грохота
+          трассы до шума дождя. <br />· Идеальный звук: Ваша аудиосистема
+          зазвучит по-новому, ведь мешать ей больше нечему. <br />· Комфорт в
+          любую погоду: Летом в салоне прохладнее, зимой — теплее. <br />·
+          Повышенную надежность: Защита кузова от коррозии и вибраций. Мы
+          работаем с премиальными материалами и уделяем внимание каждой детали:
+          двери, колесные арки, пол, потолок. Подарите себе роскошь тишины.
+          Сделайте каждый километр пути наслаждением!
+        </p>
+        <div class="jobs-gallery">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/antinoise1.jpg" />
+            <img class="jobs-img" src="../assets/images/antinoise2.JPG" />
+            <img class="jobs-img" src="../assets/images/antinoise3.JPG" />
+            <img class="jobs-img" src="../assets/images/antinoise4.JPG" />
+            <img class="jobs-img" src="../assets/images/antinoise5.JPG" />
+            <img class="jobs-img" src="../assets/images/antinoise6.JPG" />
+            <img class="jobs-img" src="../assets/images/antinoise7.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item moto">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">оклейка мототехники</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui,
+          repudiandae. Maiores reprehenderit numquam quaerat eum praesentium
+        </p>
+        <div class="jobs-gallery jobs-gallery--reverse">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/moto1.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+    <li class="jobs-item wheel">
+      <div class="jobs-wrap">
+        <div class="controls">
+          <div class="open">+</div>
+        </div>
+        <h4 class="jobs-title">перешив руля</h4>
+      </div>
+      <div class="jobs-content">
+        <p class="jobs-desk">
+          Ваше самое тактильное удовольствие от вождения Проводите за рулем
+          часы, но он холодный, скользкий или просто надоел? Подарите себе
+          совершенно новые ощущения от вождения! Перешив руля — это быстрый и
+          доступный способ преображения салона. Мы берем ваш штатный руль и
+          создаем эксклюзивную деталь, идеально подходящую именно вам.
+          <br />
+          Почему это стоит сделать?
+
+          <br />· Уникальный стиль: Алькантара, натуральная кожа, карбон,
+          перфорация, контрастные стежки — любой дизайн по вашему желанию.
+          <br />· Максимальный комфорт: Увеличиваем обхват, меняем форму, делаем
+          руль идеально эргономичным для ваших рук. <br />· Приятные тактильные
+          ощущения: Теплая алькантара или роскошная кожа вместо холодного
+          пластика. <br />· Выгодно: Дешевле покупки нового премиального руля,
+          но результат выглядит как у топ-моделей.
+        </p>
+        <div class="jobs-gallery">
+          <div class="jobs-photos">
+            <img class="jobs-img" src="../assets/images/wheel1.JPG" />
+            <img class="jobs-img" src="../assets/images/wheel2.JPG" />
+            <img class="jobs-img" src="../assets/images/wheel3.JPG" />
+            <img class="jobs-img" src="../assets/images/wheel4.JPG" />
+          </div>
+          <button class="gallery-controls gallery-controls--prev"></button>
+          <button class="gallery-controls gallery-controls--next"></button>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="modal" id="imageModal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage" />
+  </div>
+</section>
+ <section id="feedback" class="feedback">
+  <h3 class="head feedback-head">Отзывы</h3>
+  <div class="feedback-wrap">
+    <ul class="feedback-list">
+      <li class="feedback-item">
+        <div class="feedback-item--inner">
+          <div class="feedback-profile"></div>
+          <h6 class="feedback-name">Никита</h6>
+          <a
+            class="feedback-link"
+            href="https://2gis.ru/novokuznetsk/user/0d0250f25050455e87583f739d1a3272?m=87.094044%2C53.762214%2F19.17"
+            >посмотреть отзыв в источнике</a
+          >
+          <p class="feedback-text">
+            Сделали бытсро и качественно, лег отлично,рекомендую
+          </p>
+        </div>
+        <div class="feedback-photos">
+          <div class="feedback-photo">
+            <img
+              class="gallery-img feedback-img"
+              src="./assets/images/feedback1.jpg"
+              data-fullsize="./assets/images/feedback1.jpg"
+              alt="Eva коврик в прихожую, черный ромб, черный кант "
+            />
+          </div>
+        </div>
+      </li>
+      <li class="feedback-item">
+        <div class="feedback-item--inner">
+          <div class="feedback-profile"></div>
+          <h6 class="feedback-name">Jonh</h6>
+          <a
+            class="feedback-link"
+            href="https://2gis.ru/novokuznetsk/user/0d0250f25050455e87583f739d1a3272?m=87.094044%2C53.762214%2F19.17"
+            >посмотреть отзыв в источнике</a
+          >
+          <p class="feedback-text">
+            Сделали бытсро и качественно, лег отлично,рекомендую
+          </p>
+        </div>
+        <div class="feedback-photos">
+          <div class="feedback-photo">
+            <img
+              class="gallery-img feedback-img"
+              src="./assets/images/polishing2.jpg"
+              data-fullsize="./assets/images/feedback1.jpg"
+              alt="Eva коврик в прихожую, черный ромб, черный кант "
+            />
+          </div>
+        </div>
+      </li>
+      <li class="feedback-item">
+        <div class="feedback-item--inner">
+          <div class="feedback-profile"></div>
+          <h6 class="feedback-name">dsfsdf</h6>
+          <a
+            class="feedback-link"
+            href="https://2gis.ru/novokuznetsk/user/0d0250f25050455e87583f739d1a3272?m=87.094044%2C53.762214%2F19.17"
+            >посмотреть отзыв в источнике</a
+          >
+          <p class="feedback-text">
+            Сделали бытсро и качественно, лег отлично,рекомендую
+          </p>
+        </div>
+        <div class="feedback-photos">
+          <div class="feedback-photo">
+            <img
+              class="gallery-img feedback-img"
+              src="./assets/images/polishing4.jpg"
+              data-fullsize="./assets/images/feedback1.jpg"
+              alt="Eva коврик в прихожую, черный ромб, черный кант "
+            />
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button
+      class="gallery-controls feedback-controls--prev feedback-control"
+    ></button>
+    <button
+      class="gallery-controls feedback-controls--next feedback-control"
+    ></button>
+  </div>
+</section>
+
+<section class="map">
+  <h3 class="head map-head">Как нас найти</h3>
+  <div class="map-wrap">
+    <div style="position: relative; overflow: hidden">
+      <a
+        href="https://yandex.ru/maps/237/novokuznetsk/?utm_medium=mapframe&utm_source=maps"
+        style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+        >Новокузнецк</a
+      ><a
+        href="https://yandex.ru/maps/237/novokuznetsk/?ll=87.094027%2C53.762579&utm_medium=mapframe&utm_source=maps&z=18.33"
+        style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+        >Новокузнецк — Яндекс Карты</a
+      ><iframe
+        src="https://yandex.ru/map-widget/v1/?ll=87.094027%2C53.762579&z=18.33"
+        width="100%"
+        height="400"
+        frameborder="1"
+        allowfullscreen="true"
+        style="position: relative"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+      <footer class="footer">
+  <div class="footer-nav">
+    <h5 class="footer-head">наши услуги</h5>
+    <ul class="footer-list">
+      <li class="footer-item">
+        <a href="#config">химчистка</a>
+      </li>
+      <li class="footer-item">
+        <a href="#gallery">полировка</a>
+      </li>
+      <li class="footer-item">
+        <a href="#feedback">аква-принт</a>
+      </li>
+      <li class="footer-item">
+        <a href="#other">анти-хром</a>
+      </li>
+      <li class="footer-item">
+        <a href="#other">антигравийная защита</a>
+      </li>
+      <li class="footer-item">
+        <a href="#other">автозвук</a>
+      </li>
+      <li class="footer-item">
+        <a href="#other">шумоизоляция</a>
+      </li>
+      <li class="footer-item">
+        <a href="#other">оклейка мототехники</a>
+      </li>
+      <li class="footer-item">
+        <a href="#other">перешив руля</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-law">
+    <h5 class="footer-head">Юридическая информация</h5>
+    <ul class="footer-law-list">
+      <li class="footer-law-item">
+        <p>ИП Макс</p>
+        <p>ОГРНИП: 355555555021357</p>
+        <p>ИНН: 42210000000</p>
+      </li>
+      <li class="footer-law-item">
+        <a class="footer-law-link">Политика конфиденциальности</a>
+      </li>
+      <li class="footer-law-item">
+        <a class="footer-law-link">Согласие на обработку персональных данных</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-adress">
+    <h5 class="footer-head">Наши контакты</h5>
+    <p>г. Новокузнецк, проспект Курако, 51А к18</p>
+    <a type="tel">+7 999 999 99-99</a>
+    <div class="social foter-social-btns">
+      <a href="https://t.me/eva_carpet_nvkz" class="icon footer-tg">
+        <img
+          class="img-icon"
+          src="./assets/images/tg.png"
+          width="100%"
+          height="auto"
+        />
+      </a>
+      <a class="icon footer-vk" href="https://vk.com/eva_carpet_nvkz">
+        <img
+          class="img-icon"
+          src="./assets/images/vk.png"
+          width="100%"
+          height="auto"
+        />
+      </a>
+      <a class="icon footer-vk" href="https://vk.com/eva_carpet_nvkz">
+        <img
+          class="img-icon img-icon--insta"
+          src="./assets/images/insta.png"
+          width="100%"
+          height="auto"
+        />
+      </a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    <script type="text/javascript" src=".//assets/js/mainmin.js"></script>
+  </body>
+</html>
